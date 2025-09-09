@@ -101,7 +101,7 @@ erDiagram
 - **User** can create multiple **PTO Plans**
 - Each **PTO Plan** contains multiple **Planned Leaves**
 
-## 🎨 Frontend UI Flow
+## 🎨 Frontend UI Flow (PLANNED)
 
 ### 1. Authentication
 ```
