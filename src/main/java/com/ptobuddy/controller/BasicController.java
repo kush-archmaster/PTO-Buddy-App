@@ -14,16 +14,11 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 @RestController
-@RequestMapping(path = "/pto-buddy-app/users")
+@RequestMapping(path = "/pto-buddy-app/v1/users")
 public class BasicController {
 
     @Autowired
     private UserDetailsRepository userDetailsRepository;
-
-    @GetMapping("/health")
-    public String checkHealth() {
-        return "Service is Healthy";
-    }
 
     @GetMapping
     public List<UserDetails> getUsers() {
